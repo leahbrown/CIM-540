@@ -72,15 +72,23 @@ ellipse(270,245,10,10);
 
 
 
-
-
-
-
-
-
-
-
-
-
   // put drawing code here
+}
+
+
+function mousePressed(){
+  bodyColor = "black";
+}
+function mouseReleased(){
+  bodyColor ="white";
+}
+function keyPressed(){
+  console.log("Current key: " + key + " : " + keyCode);
+  if(key == "r"){
+    bodyColor = "red";
+  }else if(key == "g"){
+    bodyColor = "green";
+  }else if(key == "b"){
+    bodyColor = "blue";
+  }
 }

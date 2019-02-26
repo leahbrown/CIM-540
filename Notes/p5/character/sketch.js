@@ -15,6 +15,14 @@ function draw() {
   background(backgroundColor);
 
   //eye
+  //click
+  function mousePressed(){
+    backgroundColor = "blue";
+  }
+
+  function mouseReleased(){
+    backgroundColor = "white";
+  }
 
   ellipse(155,175,25,30);
 
