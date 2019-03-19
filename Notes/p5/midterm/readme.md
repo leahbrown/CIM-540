@@ -5,3 +5,6 @@ Puppy race!
   You can use the reset button to move the dogs back to the starting line or
   they will automatically go back after a few seconds.
   Have Fun!
+
+[My site] (https://github.com/leahbrown/CIM-540)
+  [My midterm](https://leahbrown.github.io/CIM-540/Notes/p5/midterm/index.html)
