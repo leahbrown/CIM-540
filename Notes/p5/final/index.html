@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>p5.js example</title>
+<style> body {padding: 0; margin: 0;} </style>
+<script src="../p5.min.js"></script>
+<script src="../addons/p5.dom.min.js"></script>
+<script src="../addons/p5.sound.min.js"></script>
+<script src="sketch.js"></script>
+<script src="rita-full.js" ></script>
+
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #E8BAFF;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  fill(0);
+
+}
+</style>
+</head>
+ <body style="background-color:black;">
+
+<h1 style="color:white;" id="horoscope">Click on your horoscope sign to reveal your horoscope!</h1>
+<h1 font="verdana";>
+<font face="verdana" color="#6F80E8"><Click on your horoscope sign to reveal your horoscope!/font>
+
+<p <em></em>  <em></em>  <em></em></p>
+
+<p></p>
+
+ <div class="grid-container">
+  <div class="grid-item" id="Aries">Aries</div>
+  <div class="grid-item" id="Taurus">Taurus</div>
+  <div class="grid-item" id="Gemini">Gemini</div>
+  <div class="grid-item" id="Cancer">Cancer</div>
+  <div class="grid-item" id="Leo">Leo</div>
+  <div class="grid-item" id="Virgo">Virgo</div>
+  <div class="grid-item" id="Libra">Libra</div>
+  <div class="grid-item" id="Scorpio">Scorpio</div>
+  <div class="grid-item" id="Sagittarius">Sagittarius</div>
+  <div class="grid-item" id="Capricorn">Capricorn</div>
+  <div class="grid-item" id="Aquarius">Aquarius</div>
+  <div class="grid-item" id="Pisces">Pisces</div>
+</div>
+
+</body>
+
+</html>
